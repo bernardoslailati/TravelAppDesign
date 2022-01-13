@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layoutDescription="@xml/activity_splash_scene"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv1"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_splash_first_image" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv2"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_splash_second_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_splash_third_image" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitle"
+        style="@style/BigTitleTextWhite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/twice_default_margin"
+        android:layout_marginEnd="@dimen/five_times_default_margin"
+        android:text="@string/title_content_splash"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/glFirstPortion" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSubtitle"
+        style="@style/BigSubtitleTextWhite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/four_times_default_margin"
+        android:layout_marginStart="@dimen/twice_default_margin"
+        android:layout_marginEnd="@dimen/five_times_default_margin"
+        android:text="@string/subtitle_content_splash"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignIn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glFirstPortion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <com.slailati.android.travelappdesign.customview.LoadingButton
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/twice_default_margin"
+        app:title="@string/sign_in"
+        app:is_loading="false"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintBottom_toTopOf="@+id/tvCreateAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCreateAccount"
+        style="@style/BigBaseTextWhite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/four_times_default_margin"
+        android:layout_marginBottom="@dimen/three_times_default_margin"
+        android:text="@string/create_account"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TravelAppDesign</string>
+    <string name="title_content_splash">Find new places to stay and homes</string>
+    <string name="subtitle_content_splash">Explore interesting places to live and choose something for yourself.</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
 </resources>
