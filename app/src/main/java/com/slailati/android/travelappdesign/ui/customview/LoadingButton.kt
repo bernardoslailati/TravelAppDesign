@@ -1,8 +1,7 @@
-package com.slailati.android.travelappdesign.customview
+package com.slailati.android.travelappdesign.ui.customview
 
 import android.content.Context
 import android.util.AttributeSet
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout

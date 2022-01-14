@@ -2,10 +2,10 @@
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:layoutDescription="@xml/activity_splash_scene"
+    app:layoutDescription="@xml/fragment_splash_scene"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    tools:context=".ui.activity.MainActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv1"
@@ -60,7 +60,7 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.35"/>
 
-    <com.slailati.android.travelappdesign.customview.LoadingButton
+    <com.slailati.android.travelappdesign.ui.customview.LoadingButton
         android:id="@+id/btnSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

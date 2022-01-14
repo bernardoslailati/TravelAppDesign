@@ -5,4 +5,5 @@
     <dimen name="three_times_default_margin">24dp</dimen>
     <dimen name="four_times_default_margin">32dp</dimen>
     <dimen name="five_times_default_margin">40dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
 </resources>

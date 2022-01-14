@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:layoutDescription="@xml/activity_splash_scene"
+    app:layoutDescription="@xml/fragment_splash_scene"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    tools:context=".ui.activity.MainActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv1"
@@ -28,7 +28,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvTitle"
-        style="@style/SmallTitleTextWhite"
+        style="@style/TitleTextWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/twice_default_margin"
@@ -40,10 +40,10 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvSubtitle"
-        style="@style/SmallSubtitleTextWhite"
+        style="@style/SubtitleTextWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="@dimen/four_times_default_margin"
         android:layout_marginStart="@dimen/twice_default_margin"
         android:layout_marginEnd="@dimen/five_times_default_margin"
         android:text="@string/subtitle_content_splash"
@@ -58,15 +58,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.05"/>
+        app:layout_constraintGuide_percent="0.5"/>
 
-    <com.slailati.android.travelappdesign.customview.LoadingButton
+    <com.slailati.android.travelappdesign.ui.customview.LoadingButton
         android:id="@+id/btnSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/twice_default_margin"
         app:title="@string/sign_in"
-        app:title_size="10sp"
         app:is_loading="false"
         app:layout_constraintVertical_bias="1"
         app:layout_constraintBottom_toTopOf="@+id/tvCreateAccount"
@@ -75,15 +74,15 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvCreateAccount"
-        style="@style/SmallBaseTextWhite"
+        style="@style/BaseTextWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/four_times_default_margin"
-        android:layout_marginBottom="@dimen/twice_default_margin"
+        android:layout_marginBottom="@dimen/three_times_default_margin"
         android:text="@string/create_account"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
-</androidx.constraintlayout.motion.widget.MotionLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
