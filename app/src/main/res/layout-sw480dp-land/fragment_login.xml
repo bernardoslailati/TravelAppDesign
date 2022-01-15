@@ -28,7 +28,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvTitle"
-        style="@style/TitleTextWhite"
+        style="@style/TitleText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/twice_default_margin"
@@ -40,7 +40,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvSubtitle"
-        style="@style/SubtitleTextWhite"
+        style="@style/SubtitleText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/four_times_default_margin"
@@ -74,7 +74,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvCreateAccount"
-        style="@style/BaseTextWhite"
+        style="@style/BaseText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="192dp"

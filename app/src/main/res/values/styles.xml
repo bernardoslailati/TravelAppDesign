@@ -1,61 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="TitleTextWhite" parent="TextAppearance.AppCompat">
+    <style name="TitleText" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">@font/montserrat_bold</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">36sp</item>
     </style>
 
-    <style name="BigTitleTextWhite" parent="TextAppearance.AppCompat">
-        <item name="android:fontFamily">@font/montserrat_bold</item>
-        <item name="android:textColor">@android:color/white</item>
+    <style name="TitleTextLarge" parent="TitleText">
         <item name="android:textSize">72sp</item>
     </style>
 
-    <style name="SmallTitleTextWhite" parent="TextAppearance.AppCompat">
+    <style name="TitleTextSmall" parent="TitleText">
         <item name="android:fontFamily">@font/montserrat_bold</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">12sp</item>
     </style>
 
-    <style name="SubtitleTextWhite" parent="TextAppearance.AppCompat">
+    <style name="SubtitleText" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">@font/montserrat_semi_bold</item>
         <item name="android:textColor">@color/lighter_gray</item>
         <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="BigSubtitleTextWhite" parent="TextAppearance.AppCompat">
-        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
-        <item name="android:textColor">@color/lighter_gray</item>
+    <style name="SubtitleTextLarge" parent="SubtitleText">
         <item name="android:textSize">36sp</item>
     </style>
 
-    <style name="SmallSubtitleTextWhite" parent="TextAppearance.AppCompat">
-        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
-        <item name="android:textColor">@color/lighter_gray</item>
+    <style name="SubtitleTextSmall" parent="SubtitleText">
         <item name="android:textSize">9sp</item>
     </style>
 
-    <style name="BaseTextWhite" parent="TextAppearance.AppCompat">
+    <style name="BaseText" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">@font/montserrat_semi_bold</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="BigBaseTextWhite" parent="TextAppearance.AppCompat">
-        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
-        <item name="android:textColor">@android:color/white</item>
+    <style name="BaseTextLarge" parent="BaseText">
         <item name="android:textSize">28sp</item>
     </style>
 
-    <style name="SmallBaseTextWhite" parent="TextAppearance.AppCompat">
-        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
-        <item name="android:textColor">@android:color/white</item>
+    <style name="BaseTextSmall" parent="BaseText">
         <item name="android:textSize">10sp</item>
     </style>
 
-    <style name="PrimaryButtonDarkGreen" parent="Widget.AppCompat.Button">
+    <style name="BasePrimaryButton" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_loading_states</item>
         <item name="android:fontFamily">@font/montserrat_semi_bold</item>
         <item name="android:textColor">@android:color/white</item>
@@ -64,10 +54,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="BigPrimaryButtonDarkGreen" parent="Widget.AppCompat.Button">
-        <item name="android:background">@drawable/button_loading_states</item>
-        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
-        <item name="android:textColor">@android:color/white</item>
+    <style name="PrimaryButtonLarge" parent="BasePrimaryButton">
         <item name="android:paddingStart">64dp</item>
         <item name="android:paddingEnd">64dp</item>
         <item name="android:paddingTop">@dimen/three_times_default_margin</item>
@@ -75,12 +62,9 @@
         <item name="android:textSize">36sp</item>
     </style>
 
-    <style name="SmallPrimaryButtonDarkGreen" parent="Widget.AppCompat.Button.Small">
-        <item name="android:background">@drawable/button_loading_states</item>
-        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:paddingStart">16dp</item>
-        <item name="android:paddingEnd">16dp</item>
+    <style name="PrimaryButtonSmall" parent="BasePrimaryButton">
+        <item name="android:paddingStart">@dimen/twice_default_margin</item>
+        <item name="android:paddingEnd">@dimen/twice_default_margin</item>
         <item name="android:textSize">8sp</item>
     </style>
 
