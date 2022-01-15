@@ -31,6 +31,11 @@
         <item name="android:textSize">9sp</item>
     </style>
 
+    <style name="CategoryTitleText" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
     <style name="BaseText" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">@font/montserrat_semi_bold</item>
         <item name="android:textColor">@android:color/white</item>
