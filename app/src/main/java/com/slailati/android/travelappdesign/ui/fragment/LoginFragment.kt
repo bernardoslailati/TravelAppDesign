@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import com.slailati.android.travelappdesign.databinding.FragmentLoginBinding
 import com.slailati.android.travelappdesign.ui.customview.LoadingButton
 import kotlinx.coroutines.delay
@@ -24,7 +25,7 @@ class LoginFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -34,17 +35,22 @@ class LoginFragment : Fragment() {
 
         binding.btnSignIn.run {
             setOnClickListener {
-                fakeLoginProcess()
+                fakeLoginSuccessProcess()
             }
         }
     }
 
-    private fun LoadingButton.fakeLoginProcess() {
+    private fun LoadingButton.fakeLoginSuccessProcess() {
         initLoading()
         lifecycleScope.launch {
-            delay(4_000)
+            delay(2_000)
             stopLoading()
+            navigateFromLoginToHome()
         }
+    }
+
+    private fun navigateFromLoginToHome() {
+        this.findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToHomeFragment())
     }
 
 }

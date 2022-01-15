@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:minHeight="48dp"
         android:gravity="center"
+        android:paddingVertical="@dimen/default_margin"
         android:paddingHorizontal="48dp"
         android:fontFamily="@font/montserrat_semi_bold"
         android:textSize="18sp"

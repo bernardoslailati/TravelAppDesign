@@ -5,9 +5,8 @@
     <color name="light_gray">#E5E5E5</color>
     <color name="lighter_gray">#F1F1F1</color>
     <color name="dark_gray">#323643</color>
+    <color name="gray_hint">#757575</color>
     <color name="dark_yellow">#FFAB2D</color>
-    <color name="light_blue_400">#FF29B6F6</color>
-    <color name="light_blue_600">#FF039BE5</color>
-    <color name="gray_400">#FFBDBDBD</color>
-    <color name="gray_600">#FF757575</color>
+
+    <color name="white_transparent">#DDFFFFFF</color>
 </resources>

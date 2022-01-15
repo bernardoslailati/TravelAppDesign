@@ -3,7 +3,7 @@
     package="com.slailati.android.travelappdesign">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_app_logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_app_logo_round"

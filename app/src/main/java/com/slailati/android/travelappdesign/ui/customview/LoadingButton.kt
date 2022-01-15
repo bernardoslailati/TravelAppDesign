@@ -73,8 +73,6 @@ class LoadingButton @JvmOverloads constructor(
         state = LoadingButtonState.Normal
     }
 
-    fun getIsLoading() = state.isEnabled
-
     sealed class LoadingButtonState (val isEnabled: Boolean, val loadingVisibility: Int) {
         object Normal: LoadingButtonState(true, View.INVISIBLE)
         object Loading: LoadingButtonState(false, View.VISIBLE)

@@ -8,19 +8,19 @@
     tools:context=".ui.activity.MainActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/iv1"
+        android:id="@+id/ivFirstBeautifulPlace"
         android:scaleType="fitXY"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/bg_splash_first_image" />
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/iv2"
+        android:id="@+id/ivSecondBeautifulPlace"
         android:scaleType="fitXY"
         android:src="@drawable/bg_splash_second_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/iv3"
+        android:id="@+id/ivThirdBeautifulPlace"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"

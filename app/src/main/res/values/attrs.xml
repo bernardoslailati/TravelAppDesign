@@ -5,4 +5,9 @@
         <attr name="title_size" format="dimension" />
         <attr name="is_loading" format="boolean" />
     </declare-styleable>
+
+    <declare-styleable name="FindAPlaceToStaySearchBar">
+        <attr name="title_hint" format="string" />
+        <attr name="is_searching" format="boolean" />
+    </declare-styleable>
 </resources>

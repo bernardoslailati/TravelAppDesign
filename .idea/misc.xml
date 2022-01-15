@@ -3,31 +3,45 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/bg_bottom_nav_menu.xml" value="0.3609375" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/bg_find_a_place_search_bar.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/bg_primary_button.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_first_custom.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_first_default.xml" value="2.475" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_first_focused.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_first_pressed.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_loading_disabled.xml" value="0.2046875" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_loading_enabled.xml" value="0.3609375" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_loading_states.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_primary_default.xml" value="2.475" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_primary_focused.xml" value="2.475" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_primary_pressed.xml" value="1.0" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_primary_states.xml" value="2.475" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/ic_close.xml" value="0.3609375" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/ic_search.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-land/activity_splash.xml" value="0.2" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw320dp-land/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw320dp-land/fragment_login.xml" value="0.23125" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw320dp/activity_splash.xml" value="0.14" />
-        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw320dp/fragment_login.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw320dp/fragment_login.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw480dp-land/activity_splash.xml" value="0.1715686274509804" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw480dp-land/fragment_login.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw480dp/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw480dp/fragment_login.xml" value="0.26646205357142855" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw600dp/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw600dp/fragment_login.xml" value="0.646484375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw720dp/activity_splash.xml" value="0.1" />
-        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout-sw720dp/fragment_login.xml" value="0.18" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/custom_beautiful_places_carousel.xml" value="0.11" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/custom_find_a_place_search_bar.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/custom_find_a_place_to_stay_seach_bar.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/custom_find_a_place_to_stay_search_bar.xml" value="0.18854166666666666" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/custom_loading_button.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/custom_primary_button.xml" value="0.6632337796086509" />
-        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/fragment_home.xml" value="0.34479166666666666" />
-        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/fragment_login.xml" value="0.5990338164251208" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/fragment_login.xml" value="0.9" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/sample_primary_button.xml" value="0.34479166666666666" />
       </map>
     </option>
