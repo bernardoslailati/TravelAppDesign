@@ -5,13 +5,9 @@
 
 ## O que é?
 
-Aplicativo fictício de viagens relacionado a reserva de hospedagens temporárias em diferentes lugares do mundo, baseado no projeto [Travel App Design](https://www.figma.com/community/file/1042793245557377805), criado por [Rauliqba](https://www.figma.com/@rauliqbal). .  
+Aplicativo fictício de viagens relacionado a reserva de hospedagens temporárias em diferentes lugares do mundo, baseado no projeto [Travel App Design](https://www.figma.com/community/file/1042793245557377805), criado por [Rauliqba](https://www.figma.com/@rauliqbal).
 
-## Estrutura
-
-- Android (disponível para versões de Android >= 6.0)
-- Kotlin
-- Android Jetpack (Navigation, ViewBinding, Animation, CustomView, MotionLayout)
+Obs: disponível para versões de Android >= 6.0.
 
 ## Estudos relacionados
 
