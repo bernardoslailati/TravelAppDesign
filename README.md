@@ -19,7 +19,7 @@ Aplicativo fictício de viagens relacionado a reserva de hospedagens temporária
 
 ## Protótipo
 
-Para acessar o protótipo completo do aplicativo reproduzido, basta clicar aqui: [Figma - Protótipo Travel App](https://www.figma.com/proto/6KAwY5FY2Obu80IBRmkHRR/Travel-App-Design-(Community)?node-id=1%3A6&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A6)
+Para acessar o protótipo funcional do aplicativo a ser reproduzido, basta clicar aqui: [Figma - Protótipo Travel App](https://www.figma.com/proto/6KAwY5FY2Obu80IBRmkHRR/Travel-App-Design-(Community)?node-id=1%3A6&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A6)
 
 <p align="center">
   <img src="assets/prototype_app_travel_app_design_2022_01_15_17_16_10.gif" alt="animated" />
