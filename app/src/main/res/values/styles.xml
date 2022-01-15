@@ -45,6 +45,12 @@
         <item name="android:textSize">10sp</item>
     </style>
 
+    <style name="BaseTopicText" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
     <style name="BasePrimaryButton" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_loading_states</item>
         <item name="android:fontFamily">@font/montserrat_semi_bold</item>
@@ -66,6 +72,11 @@
         <item name="android:paddingStart">@dimen/twice_default_margin</item>
         <item name="android:paddingEnd">@dimen/twice_default_margin</item>
         <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="HomeBottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>

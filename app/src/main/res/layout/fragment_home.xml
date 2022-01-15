@@ -15,8 +15,8 @@
         android:layout_marginHorizontal="@dimen/three_times_default_margin"
         android:layout_marginTop="@dimen/five_times_default_margin"
         android:fontFamily="@font/montserrat_medium"
-        android:text="@string/where_do"
         android:includeFontPadding="false"
+        android:text="@string/where_do"
         android:textColor="@color/dark_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,31 +39,78 @@
         android:id="@+id/fapsbFindAPlaceToStay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/three_times_default_margin"
         android:layout_marginHorizontal="@dimen/three_times_default_margin"
+        android:layout_marginTop="@dimen/three_times_default_margin"
         app:is_searching="false"
-        app:title_hint="@string/find_a_place_to_stay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvFinishTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/tvFinishTitle"
+        app:title_hint="@string/find_a_place_to_stay" />
 
-        <androidx.core.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/three_times_default_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fapsbFindAPlaceToStay">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/fapsbFindAPlaceToStay">
+            android:layout_height="match_parent">
 
             <androidx.appcompat.widget.AppCompatTextView
-                style="@style/SubtitleText"
+                android:id="@+id/tvTopicCategory"
+                style="@style/BaseTopicText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/home_topic_category"
                 android:textColor="@color/dark_gray"
-                android:text="Category" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTopicPopular"
+                style="@style/BaseTopicText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_topic_popular"
+                android:textColor="@color/dark_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTopicCategory" />
 
-        </androidx.core.widget.NestedScrollView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTopicNearbyResidence"
+                style="@style/BaseTopicText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_topic_nearby_residence"
+                android:textColor="@color/dark_gray"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTopicPopular" />
 
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnvHomeMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bottom_nav_menu"
+        android:paddingTop="@dimen/default_margin"
+        app:itemIconSize="27dp"
+        app:itemTextAppearanceActive="@style/HomeBottomNavigationView.Active"
+        app:labelVisibilityMode="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/home_bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

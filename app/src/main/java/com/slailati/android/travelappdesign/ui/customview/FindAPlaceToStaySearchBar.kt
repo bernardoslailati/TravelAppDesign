@@ -42,13 +42,6 @@ class FindAPlaceToStaySearchBar @JvmOverloads constructor(
     }
 
     private fun updateState() {
-        refreshDrawableState()
-
-        if (state.backIconVisibility == View.VISIBLE)
-            showBackIconAnimated()
-        else if (state.backIconVisibility == View.GONE)
-            hideBackIconAnimated()
-
         if (state.isSearching) {
             binding.ivSearchIcon.visibility = View.INVISIBLE
             binding.lavSearchingAnimation.visibility = View.VISIBLE
@@ -56,6 +49,7 @@ class FindAPlaceToStaySearchBar @JvmOverloads constructor(
             binding.ivSearchIcon.visibility = View.VISIBLE
             binding.lavSearchingAnimation.visibility = View.INVISIBLE
         }
+        refreshDrawableState()
     }
 
     private fun setLayout(attrs: AttributeSet?) {
@@ -78,7 +72,9 @@ class FindAPlaceToStaySearchBar @JvmOverloads constructor(
                 onFocusChangeListener = OnFocusChangeListener { v, hasFocus ->
                     if (!hasFocus) {
                         hideKeyboard(v)
-                    }
+                        hideBackIconAnimated()
+                    } else
+                        showBackIconAnimated()
                 }
             }
 
@@ -107,19 +103,9 @@ class FindAPlaceToStaySearchBar @JvmOverloads constructor(
             FindAPlaceSearchBarState.Empty
     }
 
-    sealed class FindAPlaceSearchBarState(
-        val isSearching: Boolean,
-        val backIconVisibility: Int
-    ) {
-        object Searching : FindAPlaceSearchBarState(
-            isSearching = true,
-            backIconVisibility = View.VISIBLE
-        )
-
-        object Empty : FindAPlaceSearchBarState(
-            isSearching = false,
-            backIconVisibility = View.GONE
-        )
+    sealed class FindAPlaceSearchBarState(val isSearching: Boolean) {
+        object Searching : FindAPlaceSearchBarState(isSearching = true)
+        object Empty : FindAPlaceSearchBarState(isSearching = false)
     }
 
     private fun showBackIconAnimated() {
