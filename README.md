@@ -1,4 +1,4 @@
-# Travel App Design - Estudo de Designs Personalizados com Animações
+# Estudo de Designs Personalizados com Animações -  **Travel App Design**
 
 ## O que é?
 
