@@ -4,3 +4,7 @@ Projeto Android em linguagem Kotlin, baseado no Design System [Travel App Design
 - Tela criada a partir da estrutura de MotionLayout para efetuar a transição animada escolhida para o layout e eventos de interação do usuário;
 - Animações personalizadas utilizando Animation; 
 - Testes de UI baseados na biblioteca Espresso.
+
+## Protótipo
+
+ Para acessar o protótipo completo do aplicativo, basta clicar aqui: [Figma - Protótipo Travel App](https://www.figma.com/proto/6KAwY5FY2Obu80IBRmkHRR/Travel-App-Design-(Community)?node-id=1%3A6&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A6)
