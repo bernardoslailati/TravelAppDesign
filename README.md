@@ -12,9 +12,9 @@ Aplicativo fictício de viagens relacionado a reserva de hospedagens temporária
 ## Estudos relacionados
 
 
-- Componentes visuais personalizados criados com base em CustomView;
-- Utilização do MotionLayout para efetuar transições animadas personalizadas;
-- Animações utilizando Animation; 
+- Componentes visuais customizados, criados com base em CustomView;
+- Utilização do MotionLayout para transições animadas;
+- Animações simples utilizando Animation; 
 - Testes de UI baseados na biblioteca Espresso.
 
 ## Protótipo
