@@ -9,13 +9,13 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivFirstBeautifulPlace"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/bg_splash_first_image" />
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivSecondBeautifulPlace"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         android:src="@drawable/bg_splash_second_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
@@ -23,7 +23,7 @@
         android:id="@+id/ivThirdBeautifulPlace"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         android:src="@drawable/bg_splash_third_image" />
 
     <androidx.appcompat.widget.AppCompatTextView

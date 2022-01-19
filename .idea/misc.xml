@@ -6,6 +6,7 @@
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/bg_bottom_nav_menu.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/bg_bottom_nav_menu_shadow.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/bg_find_a_place_search_bar.xml" value="0.3609375" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/bg_popular_place_card.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/bg_primary_button.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_first_custom.xml" value="0.3609375" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/drawable/button_first_default.xml" value="2.475" />
@@ -42,8 +43,9 @@
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/custom_loading_button.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/custom_primary_button.xml" value="0.6632337796086509" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/fragment_home.xml" value="0.5" />
-        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/fragment_login.xml" value="0.9" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/fragment_login.xml" value="1.1" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/item_category.xml" value="0.67" />
+        <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/item_popular.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/layout/sample_primary_button.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Usuario/Desktop/Android Estudos/TravelAppDesign/app/src/main/res/menu/home_bottom_nav_menu.xml" value="0.34479166666666666" />
       </map>

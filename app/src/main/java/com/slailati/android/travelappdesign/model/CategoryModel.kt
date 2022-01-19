@@ -1,4 +1,4 @@
-package com.slailati.android.travelappdesign.ui.adapter
+package com.slailati.android.travelappdesign.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
