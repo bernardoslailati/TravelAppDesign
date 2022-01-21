@@ -18,6 +18,7 @@
     <string name="menu_option_calendar">Calendar</string>
     <string name="menu_option_chat">Chat</string>
     <string name="menu_selected_symbol">•</string>
+    <string name="example_rating">4.9</string>
 
     <string-array name="category_title_list">
         <item>House</item>
