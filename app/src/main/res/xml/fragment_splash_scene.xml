@@ -27,10 +27,10 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/twice_default_margin"
             app:layout_constraintVertical_bias="1"
-            app:layout_constraintBottom_toTopOf="@+id/tvCreateAccount"
+            app:layout_constraintBottom_toTopOf="@+id/tvCreateAccountLogin"
             app:layout_constraintStart_toStartOf="parent"
             android:id="@+id/btnSignIn"
-            app:layout_constraintTop_toBottomOf="@+id/tvSubtitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvSubtitleLogin"
             android:layout_marginTop="33dp" />
     </ConstraintSet>
 

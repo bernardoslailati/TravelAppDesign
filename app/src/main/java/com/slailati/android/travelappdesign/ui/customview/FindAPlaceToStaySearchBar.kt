@@ -135,7 +135,7 @@ class FindAPlaceToStaySearchBar @JvmOverloads constructor(
         anim.addListener(object : AnimatorListenerAdapter() {
             override fun onAnimationEnd(animation: Animator) {
                 super.onAnimationEnd(animation)
-                binding.ivBackIcon.visibility = View.INVISIBLE
+                binding.ivBackIcon.visibility = View.GONE
             }
         })
 

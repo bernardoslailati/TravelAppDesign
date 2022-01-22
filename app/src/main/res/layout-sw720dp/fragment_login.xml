@@ -27,7 +27,7 @@
         android:src="@drawable/bg_splash_third_image" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/tvTitleLogin"
         style="@style/TitleTextLarge"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -36,10 +36,10 @@
         android:text="@string/title_content_splash"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/glFirstPortion" />
+        app:layout_constraintTop_toBottomOf="@id/glFirstPortionLogin" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvSubtitle"
+        android:id="@+id/tvSubtitleLogin"
         style="@style/SubtitleTextLarge"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -51,10 +51,10 @@
         app:layout_constraintBottom_toTopOf="@+id/btnSignIn"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleLogin" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/glFirstPortion"
+        android:id="@+id/glFirstPortionLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -69,12 +69,12 @@
         app:title_size="14sp"
         app:is_loading="false"
         app:layout_constraintVertical_bias="1"
-        app:layout_constraintBottom_toTopOf="@+id/tvCreateAccount"
+        app:layout_constraintBottom_toTopOf="@+id/tvCreateAccountLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvCreateAccount"
+        android:id="@+id/tvCreateAccountLogin"
         style="@style/BaseTextLarge"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

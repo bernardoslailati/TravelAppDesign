@@ -31,7 +31,7 @@ class CategoryAdapter(val context: Context) :
 
         fun bind(item: CategoryModel) {
             binding.run {
-                ivIcon.setImageDrawable(
+                ivIconCategory.setImageDrawable(
                     when (item.type) {
                         HOUSE -> ContextCompat.getDrawable(context, R.drawable.ic_category_house)
                         CAMPING -> ContextCompat.getDrawable(
@@ -42,7 +42,7 @@ class CategoryAdapter(val context: Context) :
                         HOTEL -> ContextCompat.getDrawable(context, R.drawable.ic_category_hotel)
                     }
                 )
-                tvTitle.text = item.title
+                tvTitleCategory.text = item.title
             }
         }
     }

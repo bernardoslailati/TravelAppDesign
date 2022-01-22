@@ -95,6 +95,18 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/rvCategory" />
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_popular_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTopicPopular"
+                tools:itemCount="4"
+                tools:listitem="@layout/item_popular_place" />
+
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tvTopicNearbyResidence"
                 style="@style/BaseTopicText"
@@ -102,10 +114,10 @@
                 android:layout_height="wrap_content"
                 android:text="@string/home_topic_nearby_residence"
                 android:textColor="@color/dark_gray"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rv_popular_place"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvTopicPopular" />
+                app:layout_constraintBottom_toBottomOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

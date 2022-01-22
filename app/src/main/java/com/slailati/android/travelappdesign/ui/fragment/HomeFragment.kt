@@ -5,10 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.slailati.android.travelappdesign.R
 import com.slailati.android.travelappdesign.databinding.FragmentHomeBinding
-import com.slailati.android.travelappdesign.databinding.FragmentLoginBinding
 import com.slailati.android.travelappdesign.ui.adapter.CategoryAdapter
+import com.slailati.android.travelappdesign.ui.adapter.PopularPlaceAdapter
 
 class HomeFragment : Fragment() {
 
@@ -32,6 +31,7 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.rvCategory.adapter = CategoryAdapter(requireContext())
+        binding.rvPopularPlace.adapter = PopularPlaceAdapter(requireContext())
     }
 
 }

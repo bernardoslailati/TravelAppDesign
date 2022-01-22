@@ -7,7 +7,7 @@
     android:padding="12dp">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/ivRatingIcon"
+        android:id="@+id/ivIconCategory"
         android:layout_width="64dp"
         android:layout_height="64dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -16,14 +16,14 @@
         tools:srcCompat="@drawable/ic_category_house" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/tvTitleCategory"
         style="@style/CategoryTitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ivRatingIcon"
+        app:layout_constraintTop_toBottomOf="@id/ivIconCategory"
         tools:text="House"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

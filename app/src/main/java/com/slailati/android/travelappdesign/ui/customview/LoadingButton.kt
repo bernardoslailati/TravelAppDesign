@@ -38,8 +38,8 @@ class LoadingButton @JvmOverloads constructor(
         binding.pbLoading.visibility = state.loadingVisibility
 
         when (state) {
-            LoadingButtonState.Normal -> binding.tvTitle.text = title
-            LoadingButtonState.Loading -> binding.tvTitle.text = ""
+            LoadingButtonState.Normal -> binding.tvTitleLogin.text = title
+            LoadingButtonState.Loading -> binding.tvTitleLogin.text = ""
         }
     }
 
@@ -59,7 +59,7 @@ class LoadingButton @JvmOverloads constructor(
             title = attributes.getString(R.styleable.LoadingButton_title) ?: ""
             titleSize = attributes.getDimension(R.styleable.LoadingButton_title_size, 18f)
 
-            binding.tvTitle.textSize = titleSize
+            binding.tvTitleLogin.textSize = titleSize
 
             attributes.recycle()
         }
