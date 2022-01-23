@@ -6,5 +6,5 @@ data class NearbyResidenceModel (
     val locationName: String,
     val valuePerDay: Float,
     val placeRating: Float,
-    val isFavorite: Boolean
+    var isFavorite: Boolean
 )

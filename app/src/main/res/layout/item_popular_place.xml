@@ -4,13 +4,14 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="@dimen/default_margin"
     android:background="@android:color/transparent">
 
     <androidx.cardview.widget.CardView
         android:layout_width="140dp"
         android:layout_height="220dp"
         app:cardCornerRadius="@dimen/twice_default_margin"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

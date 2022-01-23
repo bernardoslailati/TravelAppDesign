@@ -20,6 +20,8 @@
     <string name="menu_selected_symbol">•</string>
     <string name="example_rating">4.9</string>
 
+    <string name="nearby_residence_value_per_day">Rp %1$s/Day</string>
+
     <string-array name="category_title_list">
         <item>House</item>
         <item>Camping</item>

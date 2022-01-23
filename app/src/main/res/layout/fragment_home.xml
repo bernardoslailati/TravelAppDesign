@@ -51,8 +51,9 @@
         android:id="@+id/nestedScrollView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="@dimen/three_times_default_margin"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="@dimen/three_times_default_margin"
+        android:layout_marginTop="@dimen/twice_default_margin"
+        app:layout_constraintBottom_toBottomOf="@+id/bnvHomeMenu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fapsbFindAPlaceToStay">
@@ -114,10 +115,23 @@
                 android:layout_height="wrap_content"
                 android:text="@string/home_topic_nearby_residence"
                 android:textColor="@color/dark_gray"
-                app:layout_constraintTop_toBottomOf="@id/rv_popular_place"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent" />
+                app:layout_constraintTop_toBottomOf="@id/rv_popular_place" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvNearbyResidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="56dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTopicNearbyResidence"
+                tools:itemCount="4"
+                tools:listitem="@layout/item_nearby_residence" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -127,6 +141,7 @@
         android:id="@+id/bnvHomeMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="56dp"
         android:background="@drawable/bg_bottom_nav_menu"
         android:paddingTop="@dimen/default_margin"
         app:itemIconSize="27dp"
